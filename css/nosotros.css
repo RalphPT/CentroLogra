@@ -1,0 +1,38 @@
+/* Nosotros: sobre nosotros y horarios */
+
+/* Sobre nosotros */
+#sobreNosotros {
+    background: white;
+    padding: 30px 6%;
+}
+
+#sobreNosotros article {
+    padding: 30px 12px;
+}
+
+#sobreNosotros h2 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+
+#sobreNosotros p {
+    color: #4a463d;
+    font-size: 17px;
+    margin: 0 0 25px 0;
+}
+
+#sobreNosotros img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Horarios */
+#horarios {
+    background: #f3ede0;
+    padding: 60px 6%;
+}
+
+#horarios h2 {
+    font-size: 34px;
+    margin: 0 0 25px 0;
+}

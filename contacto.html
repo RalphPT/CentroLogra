@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto | Centro Logra</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/estructura.css">
+        <link rel="stylesheet" href="css/portada.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/opciones.css">
+        <link rel="stylesheet" href="css/nosotros.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/carrusel.css">
+        <link rel="stylesheet" href="css/bloques.css">
+        <link rel="stylesheet" href="css/formularios.css">
+        <link rel="stylesheet" href="css/tablas.css">
+        <link rel="stylesheet" href="css/iconos.css">
+        <link rel="stylesheet" href="css/botones.css">
+    </head>
+
+    <body class="container-fluid">
+
+        <!-- Inicio de la barra superior -->
+        <div id="barra" class="row">
+            <div class="col-12 md:col-6">Matrículas abiertas · Ciclos regular, intensivo y vacacional</div>
+            <div class="col-12 md:col-6 derecha">(01) 123-4567 · informes@centrologra.pe</div>
+        </div>
+        <!-- Fin de la barra superior -->
+
+        <!-- Inicio de la cabecera -->
+        <header id="encabezado" class="row">
+
+            <div id="logo" class="col-12 md:col-6 lg:col-4">
+                <a href="index.html">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/logo.svg" alt="Logo Centro Logra">
+                        </div>
+                        <div class="col-9">
+                            <h3>CENTRO <span>LOGRA</span></h3>
+                            <p>ACADEMIA PRE UNIVERSITARIA</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Inicio de la navBar -->
+            <nav class="nav col-12 md:col-6 lg:col-8">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="opciones.html">Opciones</a>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                <a class="boton-secundario" href="contacto.html">Inscríbete</a>
+            </nav>
+            <!-- Fin de la navBar -->
+
+        </header>
+        <!-- Fin de la cabecera -->
+
+        <main>
+
+            <!-- Inicio del formulario para iniciar una inscripción -->
+            <section id="inscripcion" class="row">
+
+                <article class="col-12 centrado">
+                    <h2>INICIA TU INSCRIPCIÓN</h2>
+                    <p class="subtitulo">Completa tus datos y un asesor se comunicará contigo para ayudarte a elegir tu ciclo y tu turno</p>
+                </article>
+
+                <article class="col-12 lg:col-7 p-4">
+                    <form class="formulario">
+                        <div class="row">
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="nombre" class="form-label">Nombres y apellidos</label>
+                                <input
+                                    type="text"
+                                    id="nombre"
+                                    class="form-control"
+                                    placeholder="Ingrese su nombre completo"
+                                    autofocus
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input
+                                    type="email"
+                                    id="correo"
+                                    class="form-control"
+                                    placeholder="user@gmail.com"
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="telefono" class="form-label">Teléfono o WhatsApp</label>
+                                <input
+                                    type="text"
+                                    id="telefono"
+                                    class="form-control"
+                                    placeholder="Ingrese su número de contacto"
+                                    required
+                                >
+                            </div>
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="grado" class="form-label">Estás en</label>
+                                <select id="grado" class="form-control">
+                                    <option disabled>Elige una opción</option>
+                                    <option>4.° de secundaria</option>
+                                    <option>5.° de secundaria</option>
+                                    <option>Egresado del colegio</option>
+                                    <option>Ya postulé antes</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="carrera" class="form-label">Carrera a la que quieres postular</label>
+                                <input
+                                    type="text"
+                                    id="carrera"
+                                    class="form-control"
+                                    placeholder="Por ejemplo: Ingeniería, Medicina, Derecho"
+                                >
+                            </div>
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="modalidad" class="form-label">Modalidad</label>
+                                <select id="modalidad" class="form-control">
+                                    <option disabled>Elige una modalidad</option>
+                                    <option>Presencial</option>
+                                    <option>Virtual</option>
+                                    <option>Semipresencial</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 md:col-6 mb-3">
+                                <label for="origen" class="form-label">¿Cómo te enteraste de nosotros?</label>
+                                <select id="origen" class="form-control">
+                                    <option disabled>Elige una opción</option>
+                                    <option>Redes sociales</option>
+                                    <option>Recomendación de un amigo</option>
+                                    <option>Búsqueda en internet</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label class="form-label">Ciclo</label>
+                                <div>
+                                    <label class="opcion"><input type="radio" name="ciclo"> Regular</label>
+                                    <label class="opcion"><input type="radio" name="ciclo"> Intensivo</label>
+                                    <label class="opcion"><input type="radio" name="ciclo"> Vacacional</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label class="form-label">Turno</label>
+                                <div>
+                                    <label class="opcion"><input type="radio" name="turno"> Mañana</label>
+                                    <label class="opcion"><input type="radio" name="turno"> Tarde</label>
+                                    <label class="opcion"><input type="radio" name="turno"> Noche</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="mensaje" class="form-label">Comentarios (opcional)</label>
+                                <textarea
+                                    id="mensaje"
+                                    class="form-control"
+                                    rows="3"
+                                    placeholder="Cuéntanos si tienes alguna duda o necesidad"
+                                ></textarea>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <input type="checkbox" id="terminos"> <label for="terminos">Acepto los términos y condiciones</label>
+                            </div>
+
+                            <div class="col-12">
+                                <input type="submit" class="boton-principal w-100" value="Enviar inscripción">
+                            </div>
+
+                        </div>
+                    </form>
+                </article>
+
+                <article class="col-12 lg:col-5 p-4">
+                    <div class="datos">
+                        <h3>DATOS DE CONTACTO</h3>
+                        <ul>
+                            <li><img src="img/telefono.svg" class="icono" alt="Teléfono"> (01) 123-4567</li>
+                            <li><img src="img/correo.svg" class="icono" alt="Correo"> informes@centrologra.pe</li>
+                            <li><img src="img/reloj.svg" class="icono" alt="Horario"> Lunes a sábado de 8:00 a 20:00</li>
+                            <li><img src="img/ubicacion.svg" class="icono" alt="Dirección"> Av. Principal 123, Lima</li>
+                        </ul>
+                        <p>Visítanos en nuestra sede principal o escríbenos y te ayudamos a elegir la modalidad y el ciclo que mejor se adapte a ti.</p>
+                    </div>
+                </article>
+
+            </section>
+            <!-- Fin del formulario para iniciar una inscripción -->
+
+        </main>
+
+        <!-- Inicio del pie de página -->
+        <footer class="row">
+
+            <article class="col-12 md:col-6 lg:col-4 p-4">
+                <img src="img/logo.svg" class="logo-pie" alt="Logo Centro Logra">
+                <h3>CENTRO <span>LOGRA</span></h3>
+                <p>Academia pre universitaria que te acompaña en tu camino hacia la universidad, con docentes especializados y horarios flexibles.</p>
+                <div class="redes">
+                    <a href="#" class="facebook"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="instagram"><img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="tiktok"><img src="img/tiktok.svg" alt="TikTok"></a>
+                    <a href="#" class="youtube"><img src="img/youtube.svg" alt="YouTube"></a>
+                </div>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-2 p-4">
+                <h4>ENLACES</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="opciones.html">Opciones</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-3 p-4">
+                <h4>MODALIDADES</h4>
+                <ul>
+                    <li><a href="presencial.html">Presencial</a></li>
+                    <li><a href="virtual.html">Virtual</a></li>
+                    <li><a href="semipresencial.html">Semipresencial</a></li>
+                </ul>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-3 p-4">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><img src="img/telefono.svg" class="icono" alt="Teléfono"> (01) 123-4567</li>
+                    <li><img src="img/correo.svg" class="icono" alt="Correo"> informes@centrologra.pe</li>
+                    <li><img src="img/reloj.svg" class="icono" alt="Horario"> Lunes a sábado, 8:00 a 20:00</li>
+                    <li><img src="img/ubicacion.svg" class="icono" alt="Dirección"> Av. Principal 123, Lima</li>
+                </ul>
+            </article>
+
+            <article class="col-12">
+                <hr>
+                <p class="derechos"><i>Todos los derechos reservados - Centro Logra 2026</i></p>
+            </article>
+
+        </footer>
+        <!-- Fin del pie de página -->
+
+    </body>
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</html>

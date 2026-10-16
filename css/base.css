@@ -1,0 +1,21 @@
+/* Base: tipografia, colores del cuerpo y titulos */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    color: #1d201e;
+}
+
+h1, h2, h3 {
+    color: #14231e;
+    font-weight: 700;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.subtitulo {
+    color: #6e6a5f;
+    margin: 0 0 25px 0;
+}

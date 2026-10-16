@@ -1,0 +1,32 @@
+/* Carrusel: controles, indicadores y flechas */
+
+.carousel-controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+.flecha {
+    background: #14231e;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 14px;
+}
+
+.flecha:hover {
+    background: #1f8a5b;
+}
+
+.carousel-indicators {
+    margin: 0 15px;
+}
+
+.carousel-indicators button {
+    border: 1px solid #1f8a5b;
+}
+
+.carousel-indicators .active {
+    background: #1f8a5b;
+}

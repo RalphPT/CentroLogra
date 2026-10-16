@@ -1,0 +1,82 @@
+/* Portada: bloque principal de cada pagina */
+
+/* Portada */
+#portada {
+    align-items: center;
+    background: #14231e;
+    padding: 60px 6%;
+}
+
+#portada h1 {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+}
+
+#portada .titulo-largo {
+    font-size: 38px;
+}
+
+#portada h2 {
+    color: #ffd166;
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+}
+
+#portada p {
+    color: #e2f2ea;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+}
+
+#portada img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 15px 0 0 0;
+}
+
+/* Carrusel */
+#portada .boton-principal,
+#cta .boton-principal {
+    background: #ffd166;
+    color: #14231e;
+    border: 1px solid #ffd166;
+}
+
+#portada .boton-principal:hover,
+#cta .boton-principal:hover {
+    background: white;
+    color: #14231e;
+    border: 1px solid white;
+}
+
+/* Portada con foto de fondo (inicio) */
+#portada.foto {
+    background-image: linear-gradient(rgba(20, 35, 30, 0.82), rgba(20, 35, 30, 0.82)), url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1600&h=900");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 6%;
+}
+
+#portada .formulario h3 {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+}
+
+#portada .formulario p {
+    color: #6e6a5f;
+    font-size: 15px;
+    margin: 0 0 18px 0;
+}
+
+#portada .formulario .boton-principal {
+    color: white;
+    background: #1f8a5b;
+    border: 1px solid #1f8a5b;
+}
+
+#portada .formulario .boton-principal:hover {
+    background: #14231e;
+    color: white;
+    border: 1px solid #14231e;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio | Centro Logra</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/estructura.css">
+        <link rel="stylesheet" href="css/portada.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/opciones.css">
+        <link rel="stylesheet" href="css/nosotros.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/carrusel.css">
+        <link rel="stylesheet" href="css/bloques.css">
+        <link rel="stylesheet" href="css/formularios.css">
+        <link rel="stylesheet" href="css/tablas.css">
+        <link rel="stylesheet" href="css/iconos.css">
+        <link rel="stylesheet" href="css/botones.css">
+    </head>
+
+    <body class="container-fluid">
+
+        <!-- Inicio de la barra superior -->
+        <div id="barra" class="row">
+            <div class="col-12 md:col-6">Matrículas abiertas · Ciclos regular, intensivo y vacacional</div>
+            <div class="col-12 md:col-6 derecha">(01) 123-4567 · informes@centrologra.pe</div>
+        </div>
+        <!-- Fin de la barra superior -->
+
+        <!-- Inicio de la cabecera -->
+        <header id="encabezado" class="row">
+
+            <div id="logo" class="col-12 md:col-6 lg:col-4">
+                <a href="index.html">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/logo.svg" alt="Logo Centro Logra">
+                        </div>
+                        <div class="col-9">
+                            <h3>CENTRO <span>LOGRA</span></h3>
+                            <p>ACADEMIA PRE UNIVERSITARIA</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Inicio de la navBar -->
+            <nav class="nav col-12 md:col-6 lg:col-8">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="opciones.html">Opciones</a>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="boton-secundario" href="contacto.html">Inscríbete</a>
+            </nav>
+            <!-- Fin de la navBar -->
+
+        </header>
+        <!-- Fin de la cabecera -->
+
+        <main>
+
+            <!-- Inicio de la section portada -->
+            <section id="portada" class="row foto">
+                <article class="col-12 lg:col-7">
+                    <h1>PREPÁRATE</h1>
+                    <h2>PARA INGRESAR A LA UNIVERSIDAD</h2>
+                    <p>Docentes especializados, ciclos para cada necesidad y horarios que se adaptan a tu rutina.</p>
+                    <a href="opciones.html" class="boton-principal">VER NUESTRAS OPCIONES</a>
+                </article>
+                <article class="col-12 lg:col-5">
+                    <form class="formulario">
+                        <h3>SOLICITA INFORMACIÓN</h3>
+                        <p>Déjanos tus datos y un asesor se comunicará contigo.</p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Teléfono" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control">
+                                <option disabled>Modalidad de interés</option>
+                                <option>Presencial</option>
+                                <option>Virtual</option>
+                                <option>Semipresencial</option>
+                            </select>
+                        </div>
+                        <input type="submit" class="boton-principal w-100" value="QUIERO INFORMACIÓN">
+                    </form>
+                </article>
+            </section>
+            <!-- Fin de la section portada -->
+
+            <!-- Inicio de la section modalidades -->
+            <section id="opciones" class="row">
+                <article class="col-12">
+                    <h2>ELIGE TU MODALIDAD</h2>
+                    <p class="subtitulo">Estudia como mejor se adapte a ti</p>
+                </article>
+
+                <article class="col-12 md:col-4 p-4">
+                    <div class="card">
+                        <picture>
+                            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=700&h=440" class="card-img-top" alt="Modalidad presencial">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">PRESENCIAL</h3>
+                            <p class="card-text">Clases en nuestras sedes con docentes especializados.</p>
+                            <a href="presencial.html" class="boton-secundario">MÁS INFORMACIÓN</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 md:col-4 p-4">
+                    <div class="card">
+                        <picture>
+                            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=700&h=440" class="card-img-top" alt="Modalidad virtual">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">VIRTUAL</h3>
+                            <p class="card-text">Estudia desde casa con clases en vivo y grabadas.</p>
+                            <a href="virtual.html" class="boton-secundario">MÁS INFORMACIÓN</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 md:col-4 p-4">
+                    <div class="card">
+                        <picture>
+                            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=700&h=440" class="card-img-top" alt="Modalidad semipresencial">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">SEMIPRESENCIAL</h3>
+                            <p class="card-text">Combina clases presenciales y virtuales para mayor flexibilidad.</p>
+                            <a href="semipresencial.html" class="boton-secundario">MÁS INFORMACIÓN</a>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+            <!-- Fin de la section modalidades -->
+
+            <!-- Inicio de la section razones -->
+            <section id="porque" class="row">
+                <article class="col-12">
+                    <h2>¿POR QUÉ ELEGIRNOS?</h2>
+                </article>
+
+                <article class="col-12 md:col-4 p-4">
+                    <div class="razon">
+                        <span class="numero">01</span>
+                        <h3>Docentes</h3>
+                        <p>Profesores con experiencia en preparación para el ingreso a la universidad.</p>
+                    </div>
+                </article>
+                <article class="col-12 md:col-4 p-4">
+                    <div class="razon">
+                        <span class="numero">02</span>
+                        <h3>Material</h3>
+                        <p>Prácticas y simulacros organizados por cursos y por ciclo.</p>
+                    </div>
+                </article>
+                <article class="col-12 md:col-4 p-4">
+                    <div class="razon">
+                        <span class="numero">03</span>
+                        <h3>Seguimiento</h3>
+                        <p>Control del avance de cada estudiante durante todo el ciclo.</p>
+                    </div>
+                </article>
+            </section>
+            <!-- Fin de la section razones -->
+
+            <!-- Inicio de la section galeria -->
+            <section id="galeria" class="row">
+                <article class="col-12 lg:col-5">
+                    <h2>CONOCE LA ACADEMIA</h2>
+                    <p>Aulas cómodas, material actualizado y un ambiente pensado para que te concentres en lo importante: tu ingreso.</p>
+                    <a href="nosotros.html" class="boton-secundario">CONÓCENOS</a>
+                </article>
+                <article class="col-12 lg:col-7">
+                    <!-- Inicio del carrusel -->
+                    <div id="carouselInicio" class="carousel slide" data-bs-autoplay="true">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <picture>
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1000&h=600" alt="Estudiantes en clase">
+                    </picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture>
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&h=600" alt="Estudiantes preparándose">
+                    </picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture>
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1000&h=600" alt="Estudiante tomando apuntes">
+                    </picture>
+                            </div>
+                        </div>
+
+                        <div class="carousel-controles">
+                            <button class="flecha" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+                                <span class="carousel-icon-prev"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2"></button>
+                            </div>
+                            <button class="flecha" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+                                <span class="carousel-icon-next"></span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <!-- Fin del carrusel -->
+                </article>
+            </section>
+            <!-- Fin de la section galeria -->
+
+            <!-- Inicio de la section pasos -->
+            <section id="pasos" class="row">
+                <article class="col-12">
+                    <h2>CÓMO INSCRIBIRTE</h2>
+                </article>
+
+                <article class="col-12 md:col-6 lg:col-3 p-4">
+                    <div class="paso">
+                        <span class="numero">1</span>
+                        <h3>Llena la ficha</h3>
+                        <p>Déjanos tus datos en el formulario de inscripción.</p>
+                    </div>
+                </article>
+                <article class="col-12 md:col-6 lg:col-3 p-4">
+                    <div class="paso">
+                        <span class="numero">2</span>
+                        <h3>Elige cómo estudiar</h3>
+                        <p>Selecciona tu modalidad, tu ciclo y tu turno.</p>
+                    </div>
+                </article>
+                <article class="col-12 md:col-6 lg:col-3 p-4">
+                    <div class="paso">
+                        <span class="numero">3</span>
+                        <h3>Realiza el pago</h3>
+                        <p>Con Yape, tarjeta o efectivo.</p>
+                    </div>
+                </article>
+                <article class="col-12 md:col-6 lg:col-3 p-4">
+                    <div class="paso">
+                        <span class="numero">4</span>
+                        <h3>Empieza tus clases</h3>
+                        <p>Recibe tu horario y tu material de estudio.</p>
+                    </div>
+                </article>
+            </section>
+            <!-- Fin de la section pasos -->
+
+            <!-- Inicio de la section preguntas frecuentes -->
+            <section id="preguntas" class="row">
+                <article class="col-12 lg:col-4">
+                    <h2>PREGUNTAS FRECUENTES</h2>
+                    <p>¿Tienes otra duda? Escríbenos desde la página de contacto.</p>
+                </article>
+                <article class="col-12 lg:col-8">
+                    <details>
+                        <summary>¿Qué ciclos ofrecen?</summary>
+                        <p>Ciclo regular, intensivo y vacacional.</p>
+                    </details>
+                    <details>
+                        <summary>¿En qué turnos puedo estudiar?</summary>
+                        <p>En la mañana, en la tarde o en la noche. Puedes ver los horarios en la página Nosotros.</p>
+                    </details>
+                    <details>
+                        <summary>¿Cómo puedo pagar?</summary>
+                        <p>Con Yape, tarjeta o efectivo.</p>
+                    </details>
+                    <details>
+                        <summary>¿Puedo estudiar desde casa?</summary>
+                        <p>Sí, con la modalidad virtual: clases en vivo y grabadas.</p>
+                    </details>
+                </article>
+            </section>
+            <!-- Fin de la section preguntas frecuentes -->
+
+            <!-- Inicio de la section llamada a la acción -->
+            <section id="cta" class="row">
+                <article class="col-12 lg:col-9">
+                    <h2>INSCRIPCIONES ABIERTAS</h2>
+                    <p>Llena la ficha o escríbenos y te ayudamos a elegir tu modalidad, tu ciclo y tu turno.</p>
+                </article>
+                <article class="col-12 lg:col-3">
+                    <a href="contacto.html" class="boton-principal">INSCRÍBETE</a>
+                </article>
+            </section>
+            <!-- Fin de la section llamada a la acción -->
+
+        </main>
+
+        <!-- Inicio del pie de página -->
+        <footer class="row">
+
+            <article class="col-12 md:col-6 lg:col-4 p-4">
+                <img src="img/logo.svg" class="logo-pie" alt="Logo Centro Logra">
+                <h3>CENTRO <span>LOGRA</span></h3>
+                <p>Academia pre universitaria que te acompaña en tu camino hacia la universidad, con docentes especializados y horarios flexibles.</p>
+                <div class="redes">
+                    <a href="#" class="facebook"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="instagram"><img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="tiktok"><img src="img/tiktok.svg" alt="TikTok"></a>
+                    <a href="#" class="youtube"><img src="img/youtube.svg" alt="YouTube"></a>
+                </div>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-2 p-4">
+                <h4>ENLACES</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="opciones.html">Opciones</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-3 p-4">
+                <h4>MODALIDADES</h4>
+                <ul>
+                    <li><a href="presencial.html">Presencial</a></li>
+                    <li><a href="virtual.html">Virtual</a></li>
+                    <li><a href="semipresencial.html">Semipresencial</a></li>
+                </ul>
+            </article>
+
+            <article class="col-12 md:col-6 lg:col-3 p-4">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><img src="img/telefono.svg" class="icono" alt="Teléfono"> (01) 123-4567</li>
+                    <li><img src="img/correo.svg" class="icono" alt="Correo"> informes@centrologra.pe</li>
+                    <li><img src="img/reloj.svg" class="icono" alt="Horario"> Lunes a sábado, 8:00 a 20:00</li>
+                    <li><img src="img/ubicacion.svg" class="icono" alt="Dirección"> Av. Principal 123, Lima</li>
+                </ul>
+            </article>
+
+            <article class="col-12">
+                <hr>
+                <p class="derechos"><i>Todos los derechos reservados - Centro Logra 2026</i></p>
+            </article>
+
+        </footer>
+        <!-- Fin del pie de página -->
+
+    </body>
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</html>

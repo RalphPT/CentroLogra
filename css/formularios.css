@@ -1,0 +1,40 @@
+/* Formularios: campos, tarjeta del formulario y opciones */
+
+.form-control {
+    background: white;
+    color: #14231e;
+    border: 1px solid #d3c9b3;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border: 1px solid #1f8a5b;
+}
+
+.formulario {
+    background: white;
+    border: 1px solid #d3c9b3;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.formulario .form-label {
+    color: #4a463d;
+    font-size: 14px;
+    margin: 0 0 6px 0;
+}
+
+.opcion {
+    display: inline-block;
+    background: white;
+    border: 1px solid #d3c9b3;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 0 8px 8px 0;
+}
+
+.opcion:hover {
+    border: 1px solid #1f8a5b;
+}

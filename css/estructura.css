@@ -1,0 +1,174 @@
+/* Estructura: barra superior, encabezado y pie de pagina */
+
+/* Encabezado */
+#encabezado {
+    background: white;
+    border: 1px solid #e5dccb;
+    padding: 12px 6%;
+}
+
+#logo a {
+    color: #14231e;
+    text-decoration: none;
+}
+
+#logo img {
+    width: 100%;
+    max-width: 56px;
+    border-radius: 10px;
+}
+
+#logo h3 {
+    font-size: 24px;
+    margin: 4px 0 0 0;
+}
+
+#logo h3 span {
+    color: #1f8a5b;
+}
+
+#logo p {
+    color: #6e6a5f;
+    font-size: 12px;
+    margin: 0;
+}
+
+#encabezado nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#encabezado nav a {
+    color: #4a463d;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#encabezado nav a.active {
+    background: #e2f2ea;
+    color: #1f8a5b;
+}
+
+#encabezado nav a:hover {
+    color: #1f8a5b;
+}
+
+#encabezado nav .boton-secundario {
+    background: #14231e;
+    color: white;
+    border: 1px solid #14231e;
+    padding: 10px 22px;
+    margin: 0 0 0 8px;
+}
+
+#encabezado nav .boton-secundario:hover {
+    background: #1f8a5b;
+    color: white;
+    border: 1px solid #1f8a5b;
+}
+
+/* Barra superior */
+#barra {
+    background: #24372f;
+    color: #d3c9b3;
+    font-size: 13px;
+    padding: 8px 6%;
+}
+
+#barra .derecha {
+    text-align: right;
+}
+
+/* Pie de pagina */
+footer {
+    background: #14231e;
+    color: #d3c9b3;
+    padding: 50px 6% 20px 6%;
+}
+
+footer .logo-pie {
+    width: 56px;
+    border-radius: 10px;
+    margin: 0 0 15px 0;
+}
+
+footer h3 span {
+    color: #ffd166;
+}
+
+footer h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+
+footer h4 {
+    color: white;
+    font-size: 16px;
+    margin: 0 0 18px 0;
+}
+
+footer p {
+    margin: 0 0 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 0 0 12px 0;
+}
+
+footer a {
+    color: #d3c9b3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffd166;
+}
+
+footer .redes a {
+    display: inline-block;
+    background: #24372f;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 8px 0 0;
+}
+
+footer .redes a:hover {
+    background: #1f8a5b;
+}
+
+footer .redes .facebook:hover {
+    background: #1877f2;
+}
+
+footer .redes .instagram:hover {
+    background: #e4405f;
+}
+
+footer .redes .tiktok:hover {
+    background: #000000;
+}
+
+footer .redes .youtube:hover {
+    background: #ff0000;
+}
+
+footer .redes img {
+    width: 22px;
+}
+
+footer hr {
+    border: 1px solid #24372f;
+    margin: 10px 0 20px 0;
+}
+
+footer .derechos {
+    text-align: center;
+    margin: 0;
+}

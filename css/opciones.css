@@ -1,0 +1,107 @@
+/* Opciones: modalidades, tarjetas y ciclos */
+
+/* Opciones */
+#opciones,
+#porque,
+#valores {
+    background: white;
+    padding: 60px 6%;
+    text-align: center;
+}
+
+#opciones h2,
+#porque h2,
+#valores h2 {
+    font-size: 36px;
+    margin: 0 0 5px 0;
+}
+
+#opciones .subtitulo,
+#porque .subtitulo,
+#valores .subtitulo {
+    color: #6e6a5f;
+    margin: 0 0 30px 0;
+}
+
+#opciones .card,
+#porque .card,
+#valores .card {
+    background: white;
+    color: #14231e;
+    border: 1px solid #d3c9b3;
+    border-radius: 10px;
+    height: 100%;
+    transition: all 0.2s;
+}
+
+#opciones .card:hover,
+#porque .card:hover,
+#valores .card:hover {
+    border: 1px solid #1f8a5b;
+}
+
+#opciones .card-img-top,
+#porque .card-img-top,
+#valores .card-img-top {
+    border-radius: 9px 9px 0 0;
+}
+
+#opciones .card-body,
+#porque .card-body,
+#valores .card-body {
+    text-align: center;
+}
+
+#opciones .card-title,
+#porque .card-title,
+#valores .card-title {
+    font-size: 21px;
+}
+
+#opciones .card-text,
+#porque .card-text,
+#valores .card-text {
+    color: #6e6a5f;
+}
+
+/* Secciones con texto a la izquierda */
+#porque,
+#valores {
+    text-align: left;
+}
+
+#porque {
+    background: #f3ede0;
+}
+
+#porque .card-body,
+#valores .card-body {
+    text-align: left;
+}
+
+/* Ciclos y horarios */
+#beneficios {
+    background: #f3ede0;
+    padding: 30px 6%;
+}
+
+#beneficios article {
+    background: white;
+    border: 10px solid #f3ede0;
+    border-radius: 14px;
+    padding: 22px;
+}
+
+#beneficios img {
+    width: 52px;
+}
+
+#beneficios h3 {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+#beneficios p {
+    color: #6e6a5f;
+    margin: 0;
+}

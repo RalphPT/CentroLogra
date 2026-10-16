@@ -1,0 +1,70 @@
+/* Contacto: formularios de contacto e inscripcion */
+
+/* Contactanos */
+#contactanos {
+    background: #14231e;
+    padding: 60px 6%;
+}
+
+#contactanos h2 {
+    color: white;
+    font-size: 34px;
+    margin: 0 0 20px 0;
+}
+
+#contactanos p {
+    color: #d3c9b3;
+    font-size: 17px;
+    margin: 0 0 25px 0;
+}
+
+#contactanos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contactanos li {
+    color: white;
+    font-size: 17px;
+    margin: 0 0 14px 0;
+}
+
+/* Inscripcion */
+#inscripcion {
+    background: #f3ede0;
+    padding: 60px 6%;
+}
+
+#inscripcion h2 {
+    font-size: 34px;
+    margin: 0 0 25px 0;
+}
+
+.datos {
+    background: #14231e;
+    color: #d3c9b3;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.datos h3 {
+    color: white;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.datos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.datos li {
+    margin: 0 0 14px 0;
+    font-size: 17px;
+}
+
+.datos p {
+    margin: 0;
+}
