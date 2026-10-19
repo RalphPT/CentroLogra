@@ -19,14 +19,30 @@
     background: #1f8a5b;
 }
 
+.flecha span {
+    width: 16px;
+    height: 16px;
+}
+
 .carousel-indicators {
+    position: static;
+    width: auto;
     margin: 0 15px;
 }
 
-.carousel-indicators button {
+.carousel-indicators [data-bs-target] {
+    box-sizing: border-box;
+    background-clip: border-box;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    padding: 0;
     border: 1px solid #1f8a5b;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 1;
 }
 
-.carousel-indicators .active {
+.carousel-indicators [data-bs-target].active {
     background: #1f8a5b;
 }

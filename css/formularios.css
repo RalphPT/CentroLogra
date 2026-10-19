@@ -38,3 +38,8 @@
 .opcion:hover {
     border: 1px solid #1f8a5b;
 }
+
+.opcion input,
+#terminos {
+    accent-color: #1f8a5b;
+}
